@@ -1,0 +1,35 @@
+Responsable
+git checkout main
+git pull origin main
+git checkout -b dev
+git push -u origin dev
+
+Ty atao in-1 refa nanokatra voalohany anle dev
+git fetch
+
+Pour vous assurer hoe ao amle branche anareo foana nareo no miasa
+git checkout votrenom
+
+Mi push dans votre branche (assurer vous que vous êtes dans votre branche)
+git status
+git add .
+git commit -m "message"
+git push
+
+avant de mandefa zavatra ao @ dev de mi pull aloha 
+git checkout dev
+git pull
+
+ty le mandefa anle travaille tao amle branche perso manakany am dev
+git checkout dev
+git merge votrebrancheperso
+git push
+
+
+
+mettre à jour ta branche perso :
+git checkout votrenom
+git merge dev
+
+verifier les branches disponibles:
+ git branch -a
